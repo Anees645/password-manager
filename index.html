@@ -16,18 +16,19 @@
         <input type="range" min="5" max="15" value="8" id="inputslide">
         <div class="row">
             <p>Password Length</p>
-            <span id="slidevalue">5</span>
+            <span id="slidevalue"></span>
         </div>
         <div class="row">
         <label for="uppercase">Include Uppercase Letters</label>
-        <input type="checkbox" name="uppercase" id="uppercase">
+        <input type="checkbox" name="uppercase" id="uppercase" checked>
         </div>
         <div class="row">
         <label for="lowercase">Include Lowercase Letters</label>
-        <input type="checkbox" name="lowercase" id="lowercase">
+        <input type="checkbox" name="lowercase" id="lowercase" checked>
         </div>
         
-        <button type="button" class="generateBtn">Generate Password</button>
+        <button type="button" class="generateBtn" id="genBtn">Generate Password</button>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
